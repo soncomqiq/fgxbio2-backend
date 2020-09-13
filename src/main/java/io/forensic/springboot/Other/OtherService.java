@@ -4,8 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Deque;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -19,16 +17,6 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import io.forensic.springboot.STRLocusInfo.STRLocusInfo;
-import io.forensic.springboot.STRLocusInfo.STRLocusInfoIdentity;
-import io.forensic.springboot.forenseq.Forenseq;
-import io.forensic.springboot.forenseq.ForenseqIdentity;
-import io.forensic.springboot.forenseqX.ForenseqX;
-import io.forensic.springboot.forenseqX.ForenseqXIdentity;
-import io.forensic.springboot.forenseqY.ForenseqY;
-import io.forensic.springboot.forenseqY.ForenseqYIdentity;
-import io.forensic.springboot.person.Person;
 
 @Service
 public class OtherService {
